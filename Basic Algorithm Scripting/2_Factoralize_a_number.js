@@ -19,7 +19,7 @@ factorialize(5);
 factorialize = num => {
   let acumulador = 1;
   for (let i = num; i > 1; i--) {
-    acumulador = acumulador * i;
+    acumulador *= i;
   }
   return acumulador;
 };
